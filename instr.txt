@@ -75,3 +75,10 @@ digraph {
 
 1 -> 825
 1 -> 310
+
+
+>>> import random
+>>> for i in range(100):
+...     print(f"{int(random.random()*25)} -> {int(random.random()*25)}")
+
+
