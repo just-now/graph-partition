@@ -1,0 +1,69 @@
+ 1982  git clone https://github.com/mcavus/Kernighan-Lin.git
+ 1983  cd Kernighan-Lin/
+ 1984  ls
+ 1985  mes &
+ 1986  ems &
+ 1987  em kl.py
+ 1988  less data.txt
+ 1989  em data.txt
+ 1990  mv data.txt data2.txt
+ 1991  cp data2.txt data.txt
+ 1992  neato -Tpng data2.txt > g.png
+ 1993  open g.png
+ 1994  yed
+ 1995  gv2gml data2.txt - g.gml
+ 1996  gv2gml data2.txt -o g.gml
+ 1997  less g.gml
+ 1998  open .
+ 1999  ls
+ 2000  history | tail -n 80
+ 2001  git diff
+ 2002  history | tail -n 80
+ 2003  git diff
+ 2004  git diff -w
+ 2005  git diff -w > 1.diff
+ 2006  em 1.diff
+ 2007  ls
+ 2008  history | tail -n 40
+ 2009  python3 kl.py
+ 2010  gv2gml data2.txt -o g1.gml
+ 2011  diff g1.gml g.gml
+ 2012  diff -u g1.gml g.gml
+ 2013  less data.txt
+ 2014  em data.txt
+ 2015  python3
+ 2016  grep -nHw 17 /usr/include/asm-generic/errno*
+ 2017  history
+ 2018  neato -Tpng 123.dot > g.png
+ 2019  open g.png
+ 2020  dot -Tpng 123.dot > g.png
+ 2021  open g.png
+ 2022  cp data.txt data.bak
+ 2023  em data.txt
+ 2024  python3 kl.py
+ 2025  ls
+ 2026  less 123.dot
+ 2027  less data2.txt
+ 2028  python3 kl.py
+ 2029  dot -Tpng 123.dot > g.png
+ 2030  open g.png
+ 2031  dot -Tpng 123.dot > g.png
+ 2032  open g.png
+ 2033  gv2gml  123.dot -o g123.gml
+ 2034  less g123.gml
+ 2035  less g1.gml
+ 2036  ls
+ 2037  less g123.gml
+ 2038  less g.gml
+ 2039  open g.png
+ 2040  ls
+ 2041  history
+ 2042  git remote add origin git@github.com:just-now/graph-partition.git
+ 2043  git remote add anatoliy git@github.com:just-now/graph-partition.git
+ 2044  git remote -v
+ 2045  git status
+ 2046  git add .
+ 2047  git commit -m 'remake'
+ 2048  ls
+ 2049  history | tail -n 40
+ 2050  history | tail -n 80
